@@ -1,0 +1,79 @@
+﻿body {
+    background-color: #001F3F;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #001F3F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+    color: #A3EBAF;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #001F3F;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #A3EBAF;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    background-color: #A3EBAF;
+    border: 1px solid #001F3F;
+}
+
+input[type="email"] {
+    display: inline-block;
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #001F3F;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #A3EBAF;
+}
+
+select {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #001F3F;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #A3EBAF;
+}
+
+button {
+    background-color: #148F77;
+    color: #FFD700;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Aharoni;
+}
+
+    button:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 5px black;
+    }

@@ -1,0 +1,132 @@
+﻿body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Aharoni;
+    color: #FFD700;
+    text-align: center;
+    font-size: 30px;
+}
+
+button:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px #2A2A2A;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001F3F;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    align-self: center;
+    left: 0%;
+}
+
+li {
+    float: left;
+    border-right: 2px solid #757575;
+}
+
+    li:last-child {
+        border-right: none;
+        border-left: 2px solid #757575;
+    }
+
+    li a {
+        display: block;
+        color: #FFD700;
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        padding-right: 70px;
+        padding-left: 70px;
+        text-decoration: none;
+        background-color: #002A58;
+    }
+
+        li a:hover {
+            background-color: #239D57;
+        }
+
+#logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+    #logo:hover {
+        transform: scale(1.07);
+        box-shadow: 5px 5px 5px #2A2A2A;
+    }
+
+#guestGreeting {
+    display: block;
+    width: 400px;
+    color: #FFD700;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    border: none;
+}
+
+#form-box {
+    left: 650px;
+    top: 90px;
+    position: absolute;
+    margin-right: 20px;
+}
+
+#rectangle {
+    right: 665px;
+    top: 90px;
+    position: absolute;
+    width: 550px;
+    height: 330px;
+    background-color: #001F3F;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+}
+
+#contact-box {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #001F3F;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #A3EBAF;
+    vertical-align: top;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+#panicButton {
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    background-color: red;
+    font-size: 20px;
+    padding: 0;
+    font-family: Aharoni;
+    color: #FFD700;
+    border: none;
+    border-radius: 30px;
+}

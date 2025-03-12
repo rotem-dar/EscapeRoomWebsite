@@ -1,0 +1,68 @@
+﻿body {
+    background-image: url('gameimg/background0.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #152238;
+    font-family: Aharoni;
+}
+
+.rectangle {
+    right: 20%;
+    top: 30px;
+    position: absolute;
+    width: 700px;
+    height: 180px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    background-color: #8BBB8E;
+}
+
+.door {
+    width: 110px;
+    height: 240px;
+    position: fixed;
+    left: 50%; /* Move the item to the horizontal center */
+    transform: translateX(-50%); /* Center the item horizontally */
+    bottom: 0;
+    margin-bottom: 50px;
+}
+
+    .door:hover {
+        box-shadow: 0 0 50px 0.01px yellow, 70px 50px 70px -5px black, -5px -5px 10px 0px black inset;
+    }
+
+button {
+    background-color: #074351;
+    color: #FFD700;
+    font-size: 30px;
+    font-family: Aharoni;
+    height: 100px;
+    width: 700px;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    right: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+    button:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 30px yellow;
+    }
+
+#timer {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #148F77;
+    color: #FFD700;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-family: Aharoni;
+    font-size: 20px;
+}
